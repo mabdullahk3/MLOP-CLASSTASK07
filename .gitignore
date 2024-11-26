@@ -1,0 +1,56 @@
+# Python-related
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+*.env
+
+# DVC files
+.dvc/
+*.dvc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Data files (if you want to exclude raw or processed data from being tracked by Git)
+data/raw_data.csv
+data/processed_data.csv
+
+# Model files (if you want to exclude large model files)
+models/model.pkl
+
+# Pipfile and Pipfile.lock (if you don't want to push them)
+Pipfile
+Pipfile.lock
+
+# Other temp files (e.g., for testing purposes)
+*.bak
+*.tmp
+
+# DVC cache files (optional, if you don't want to push DVC's cache folder)
+.cache/
